@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var btn = findViewById<Button>(R.id.button);
+        var btn = findViewById<Button>(R.id.btn);
         var txt = findViewById<TextView>(R.id.textView);
 
         var flag = false;
